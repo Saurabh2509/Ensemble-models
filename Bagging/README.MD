@@ -41,10 +41,10 @@ Predictions from each model are combined to get the final result.
 > model.fit(x_train, y_train)
 > model.score(x_test,y_test)
 
-from sklearn.ensemble import BaggingRegressor
-model = BaggingRegressor(tree.DecisionTreeRegressor(random_state=1))
-model.fit(x_train, y_train)
-model.score(x_test,y_test)
+> from sklearn.ensemble import BaggingRegressor
+> model = BaggingRegressor(tree.DecisionTreeRegressor(random_state=1))
+> model.fit(x_train, y_train)
+> model.score(x_test,y_test)
 
 ## Parameters :
 
