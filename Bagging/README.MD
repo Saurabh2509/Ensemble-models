@@ -94,7 +94,7 @@ Generally, a higher number makes the predictions stronger and more stable, but a
 It defines the function that is to be used for splitting.
 The function measures the quality of a split for each feature and chooses the best split.
 
-#max_features :
+### max_features :
 It defines the maximum number of features allowed for the split in each decision tree.
 Increasing max features usually improve performance but a very high number can decrease the diversity of each tree.
 
